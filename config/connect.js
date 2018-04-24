@@ -1,6 +1,6 @@
-var mysql = require("mysql");
-var conf = require("./conf");
-var conn;
+const mysql = require("mysql");
+const conf = require("./conf");
+let conn;
 
 function connect(){
 
